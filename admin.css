@@ -1,0 +1,160 @@
+/* styles.css */
+* {
+    margin: 0.2%;
+    padding: 0;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: black;
+}
+
+h2, h3 {
+    color: #a4a4a4;
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.excl {
+    cursor: pointer;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#searchInput {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+    color: black;
+    padding: 10px;
+}
+
+table {
+    max-width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+td {
+    height: 40px;
+}
+
+.tabel, .no, .kelas, .waktu, .status {
+    text-align: center;
+}
+
+.edit {
+    width: 60px;
+    margin: auto;
+}
+
+tbody tr td a {
+    background-color: #a4a4a4;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    text-decoration: none;
+    color: black;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+tbody tr td a:hover {
+    /* background-color: blue; */
+    padding: 7px;
+}
+
+.delete {
+    width: 70px;
+    margin: auto;
+}
+
+.array {
+    display: flexbox;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    left: 20%;
+    right: 25%;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    border-radius: 20px;
+    width: 60%;
+    z-index: 999;
+}
+
+label, #nama, #kelas {
+    width: 70%;
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.array input[type="submit"] {
+    opacity: 1;
+    cursor: pointer;
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+
+    input[type="text"], input[type="submit"], select {
+        padding: 12px;
+        margin: 8px 0;
+    }
+
+    table, th, td {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,118 @@
+/* styles.css */
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: black;
+}
+
+h2, h3 {
+    color: #a4a4a4;
+    text-align: center;
+
+}
+
+h3 {
+    border-top: 5px solid white;
+    padding: 15px;
+    margin: auto;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    /* margin: 5px 0; */
+    box-sizing: border-box;
+    color: black;
+}
+
+select {
+    width: 80px;
+    /* font-size: 16px; */
+    margin: auto;
+}
+
+.pjg {
+    width: 100%;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.kelasD {
+    max-width: 80px;
+}
+
+#searchInput {
+    width: 60%;
+    margin: 10px 0 20px 0;
+}
+
+label {
+    color: white;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+    text-align: center;
+}
+
+.kelas, .aksi, .add {
+    text-align: center;
+    margin: auto;
+}
+
+.markAttendanceForm {
+    text-align: center;
+    margin: auto;
+}
+
+.logout {
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 5px;
+    }
+
+    input[type="text"], input[type="submit"], select {
+        padding: 12px;
+        margin: 8px 0;
+    }
+
+    table, th, td {
+        font-size: 16px;
+    }
+}
